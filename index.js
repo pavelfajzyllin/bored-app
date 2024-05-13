@@ -25,7 +25,7 @@ function changeBcgr() {
 
 
 function getActivity () {
-fetch('http://www.boredapi.com/api/activity/')
+fetch('https://www.boredapi.com/api/activity/')
     .then(data => data.json())
     .then((res) => {  
     newText = res.activity;
